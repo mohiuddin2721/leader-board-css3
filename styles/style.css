@@ -1,0 +1,128 @@
+/*----------------
+----- navbar start------
+----------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+.nav-bar {
+    width: 1315px;
+    height: 94px;
+    margin-top: 0;
+    margin-left: 0;
+    background: #562EFF;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-left img {
+    width: 40.42px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left a {
+    font-size: 24px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-bar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.nav-right a {
+    margin-right: 36px;
+}
+/*----------------
+----- navbar end------
+----------------- */
+
+/* ------------------------------------
+------main-contant start -------------
+------------------------------------ */
+.main-contant {
+    width: 840px;
+    height: 700px;
+    margin-left: 285px;
+    margin-top: 34px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.player-title {
+    padding-top: 33px;
+    color: #562EFF;
+    font-size: 24px;
+}
+.top-player {
+    margin-left: 30px;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-1, .player-2, .player-3, .player-4, .player-5, .player-6 {
+    display: flex;
+    padding: 14px;
+}
+.player p {
+    padding-left: 16px;
+}
+hr {
+    position: absolute;
+    width: 807px;
+    height: 0px;
+    left: 315px;
+    top: 410px;
+}
+/* ------------------------------------
+------main-contant end -------------
+------------------------------------ */
+
+/* ------------------------------------
+------Top-Blog start -------------
+------------------------------------ */
+
+.top-blog-title {
+    padding-left: 33px;
+    padding-top: 33px;
+    color: #562EFF;
+    font-size: 24px;
+}
+.top-blog img {
+    width: 177px;
+    height: 117px;
+}
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
+    margin-top: 31px;
+}
+.blog-1, .blog-2, .blog-3, .blog-4 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.blog-name {
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+.blog-name h2 {
+    font-size: 20px;
+}
+.blog-name a {
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+
+/* ------------------------------------
+------Top-Blog End -------------
+------------------------------------ */
